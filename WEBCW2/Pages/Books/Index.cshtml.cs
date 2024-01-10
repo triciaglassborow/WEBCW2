@@ -23,9 +23,9 @@ namespace WEBCW2.Pages.Books
 
         public async Task OnGetAsync()
         {
-            if (_context.Book != null)
+            if (_context.Books != null)
             {
-                Book = await _context.Book.ToListAsync();
+                Book = await _context.Books.ToListAsync();
             }
         }
     }

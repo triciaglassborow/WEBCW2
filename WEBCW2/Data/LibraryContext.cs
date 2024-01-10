@@ -9,11 +9,17 @@ namespace WEBCW2.Data
 {
     public class LibraryContext : DbContext
     {
-        public LibraryContext (DbContextOptions<LibraryContext> options)
+        public LibraryContext(DbContextOptions<LibraryContext> options)
             : base(options)
         {
         }
+        public DbSet<Book> Books { get; set; }
+        public DbSet<User> Users { get; set; }
 
-        public DbSet<WEBCW2.Models.Book> Book { get; set; } = default!;
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>().ToTable("User");
+            modelBuilder.Entity<Book>().ToTable("Book");
+        }
     }
 }
