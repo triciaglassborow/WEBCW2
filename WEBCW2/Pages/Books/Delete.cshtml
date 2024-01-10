@@ -1,0 +1,58 @@
+﻿@page
+@model WEBCW2.Pages.Books.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Book</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Book.BookTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Book.BookTitle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Book.Author)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Book.Author)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Book.Genre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Book.Genre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Book.Blurb)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Book.Blurb)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Book.StartDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Book.StartDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Book.EndDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Book.EndDate)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Book.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
