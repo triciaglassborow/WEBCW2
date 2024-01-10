@@ -1,8 +1,64 @@
 @page
-@model IndexModel
+@model WEBCW2.Pages.Books.IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].BookTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].Blurb)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book[0].EndDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model.Book)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Blurb)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
 <div class="card">
     <div class="card-body">
         <!--SEARCH SORT FILTER-->
@@ -24,8 +80,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">BOOK TITLE</h5>
                                 <p class="card-text">This is a short card.</p>
-
-
+                                <a href="#" class="btn btn-primary">BOOK DETAILS</a>
                             </div>
                         </div>
                     </div>

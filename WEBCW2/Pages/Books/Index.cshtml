@@ -5,49 +5,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<div class="card">
-    <div class="card-body">
-        <!--BOOKS 3 TO A ROW-->
-        <div class="row row-cols-1 row-cols-md-3">
-            <!--BOOK 1-->
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">BOOK TITLE</h5>
-                        <p class="card-text">This is a short card.</p>
-                        <tr>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Book[0].BookTitle)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Book[0].Author)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Book[0].Genre)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Book[0].Blurb)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Book[0].StartDate)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Book[0].EndDate)
-                            </th>
-                            <th></th>
-                        </tr>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 <p>
     <a asp-page="Create">Create New</a>
 </p>
-<!--<table class="table">
+<table class="table">
     <thead>
         <tr>
             <th>
@@ -72,7 +33,7 @@
         </tr>
     </thead>
     <tbody>
-            -->
+           
 @foreach (var item in Model.Book) {
         <tr>
             <td>
