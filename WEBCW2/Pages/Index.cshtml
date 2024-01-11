@@ -21,15 +21,15 @@
                     @foreach (var item in Model.Book)
                     {
                         <div class="col mb-4">
-                            <div class="card h-100">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.BookTitle)</h5>
-                                    <p class="card-text">This is a short card.</p>
-                                    <a href="#" class="btn btn-primary">BOOK DETAILS</a>
-                                    <a asp-page="/Books/Details" asp-route-id="@item.ID">Details</a> |
+                            <a asp-page="/Books/Details" asp-route-id="@item.ID">
+                                <div class="card h-100">
+                                    <img src=@Html.DisplayFor(modelItem => item.Image) class="card-img-top" alt=@Html.DisplayFor(modelItem => item.Image)>
+                                    <div class="card-body">
+                                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.BookTitle)</h5>
+                                        <p class="card-text">This is a short card.</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     }
                 </div>
