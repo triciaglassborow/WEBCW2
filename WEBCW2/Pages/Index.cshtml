@@ -1,7 +1,7 @@
 @page
 @model WEBCW2.Pages.Books.IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Index";
 }
 
 <div class="card">
@@ -28,6 +28,7 @@
                                     <p class="card-text">This is a short card.</p>
                                     <a href="#" class="btn btn-primary">BOOK DETAILS</a>
                                     <a asp-page="/Books/Details" asp-route-id="@item.ID">Details</a> |
+                                    <a asp-page="/Books/Delete" asp-route-id="@item.ID">Delete</a> |
                                 </div>
                             </div>
                         </div>

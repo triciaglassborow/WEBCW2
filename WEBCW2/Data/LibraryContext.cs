@@ -18,8 +18,9 @@ namespace WEBCW2.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>().ToTable("User");
             modelBuilder.Entity<Book>().ToTable("Book");
+            modelBuilder.Entity<User>().ToTable("User");
+            
         }
     }
 }

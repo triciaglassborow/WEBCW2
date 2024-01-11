@@ -31,15 +31,10 @@ namespace WEBCW2.Pages.Books
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-          if (!ModelState.IsValid || _context.Books == null || Book == null)
-            {
-                return Page();
-            }
-
             _context.Books.Add(Book);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("../Index");
         }
     }
 }
