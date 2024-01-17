@@ -36,14 +36,14 @@ namespace WEBCW2.Data
             context.Users.AddRange(users);
             context.SaveChanges();
 
-            var tests = new Test[]
+            var authors = new Author[]
             {
-                new Test{Username1="Username",LastName1="LastName",FirstName1="FirstName"},
-                new Test{Username1="Username",LastName1="LastName",FirstName1="FirstName"},
-                new Test{Username1="Username",LastName1="LastName",FirstName1="FirstName"},
+                new Author{LastName="LastName",FirstName="FirstName"},
+                new Author{LastName="LastName",FirstName="FirstName"},
+                new Author{LastName="LastName",FirstName="FirstName"},
             };
 
-            context.Tests.AddRange(tests);
+            context.Author.AddRange(authors);
             context.SaveChanges();
             
         }

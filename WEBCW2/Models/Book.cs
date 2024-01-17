@@ -11,5 +11,6 @@
         public DateTime EndDate { get; set; }
         public string Image { get; set; }
         public ICollection<User> Users { get; set; }
+        public ICollection<Author> Authors { get; set; }
     }
 }
