@@ -26,7 +26,7 @@
                                     <img src=@Html.DisplayFor(modelItem => item.Image) class="card-img-top" alt=@Html.DisplayFor(modelItem => item.Image)>
                                     <div class="card-body">
                                         <h5 class="card-title">@Html.DisplayFor(modelItem => item.BookTitle)</h5>
-                                        <p class="card-text">This is a short card.</p>
+                                        <p class="card-text">@Html.DisplayFor(modelItem => item.Author)</p>
                                     </div>
                                 </div>
                             </a>
