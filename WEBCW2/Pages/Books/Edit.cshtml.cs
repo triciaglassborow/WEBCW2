@@ -66,7 +66,7 @@ namespace WEBCW2.Pages.Books
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("../Index");
         }
 
         private bool BookExists(int id)

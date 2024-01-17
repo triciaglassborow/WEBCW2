@@ -48,11 +48,20 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Book.EndDate)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Book.Image)
+        </dt>
+        <dd class="col-sm-10">
+            <img src=@Html.DisplayFor(model => model.Book.Image) class="card-img-top" alt=@Html.DisplayFor(model => model.Book.Image)>
+        </dd>
     </dl>
     
     <form method="post">
         <input type="hidden" asp-for="Book.ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-page="./Index">Back to List</a>
+        <input type="submit" value="Delete" class="btn btn-danger" />
     </form>
+
+    <div>
+        <a asp-page="../Index">Back to Home</a>
+    </div>
 </div>

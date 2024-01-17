@@ -45,6 +45,11 @@
                 <span asp-validation-for="Book.EndDate" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Book.Image" class="control-label"></label>
+                <input asp-for="Book.Image" class="form-control" />
+                <span asp-validation-for="Book.Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
@@ -52,7 +57,7 @@
 </div>
 
 <div>
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="../Index">Back to Home</a>
 </div>
 
 @section Scripts {

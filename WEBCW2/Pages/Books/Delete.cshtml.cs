@@ -57,7 +57,7 @@ namespace WEBCW2.Pages.Books
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("../Index");
         }
     }
 }
