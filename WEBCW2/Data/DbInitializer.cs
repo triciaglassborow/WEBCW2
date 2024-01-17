@@ -35,6 +35,17 @@ namespace WEBCW2.Data
 
             context.Users.AddRange(users);
             context.SaveChanges();
+
+            var tests = new Test[]
+            {
+                new Test{Username1="Username",LastName1="LastName",FirstName1="FirstName"},
+                new Test{Username1="Username",LastName1="LastName",FirstName1="FirstName"},
+                new Test{Username1="Username",LastName1="LastName",FirstName1="FirstName"},
+            };
+
+            context.Tests.AddRange(tests);
+            context.SaveChanges();
+            
         }
     }
 }
