@@ -15,12 +15,12 @@ namespace WEBCW2.Data
         }
         public DbSet<Book> Books { get; set; }
         public DbSet<User> Users { get; set; }
-
+        public DbSet<Book2> Books2 { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Book>().ToTable("Book");
             modelBuilder.Entity<User>().ToTable("User");
-            
+            modelBuilder.Entity<User>().ToTable("Book2");
         }
     }
 }
