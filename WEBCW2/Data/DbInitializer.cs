@@ -16,10 +16,20 @@ namespace WEBCW2.Data
 
 
             //Can be deleted if we don't want books hard coded into the database
+            var authors = new Author[]
+            {
+                new Author{LastName="LastName",FirstName="FirstName"},
+                new Author{LastName="LastName",FirstName="FirstName"},
+                new Author{LastName="LastName",FirstName="FirstName"},
+            };
+
+            context.Author.AddRange(authors);
+            context.SaveChanges();
+
             var books = new Book[]
             {
-                new Book{BookTitle="Carson",Author="Alexander", Genre="Alexander",Blurb="Alexander", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="2",Author="2", Genre="2",Blurb="2", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="Carson",AuthorName="Alexander", Genre="Alexander",Blurb="Alexander", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg"),AuthorID=1, },
+                new Book{BookTitle="2",AuthorName="2", Genre="2",Blurb="2", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg"),AuthorID=3, },
             };
             context.Books.AddRange(books);
             context.SaveChanges();
@@ -36,15 +46,7 @@ namespace WEBCW2.Data
             context.Users.AddRange(users);
             context.SaveChanges();
 
-            var authors = new Author[]
-            {
-                new Author{LastName="LastName",FirstName="FirstName"},
-                new Author{LastName="LastName",FirstName="FirstName"},
-                new Author{LastName="LastName",FirstName="FirstName"},
-            };
-
-            context.Author.AddRange(authors);
-            context.SaveChanges();
+            
             
         }
     }
