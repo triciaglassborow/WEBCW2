@@ -7,5 +7,7 @@
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public ICollection<Book> Books { get; set; }
+
+        public ICollection<Stats> Stats { get; set; }
     }
 }

@@ -18,18 +18,18 @@ namespace WEBCW2.Data
             //Can be deleted if we don't want books hard coded into the database
             var books = new Book[]
             {
-                new Book{BookTitle="Carson",Author="Alexander", Genre="Comedy",Blurb="My Life", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="2",Author="2", Genre="2",Blurb="2", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="Carson",Author="Alexander", Genre="Comedy",Blurb="My Life", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="2",Author="2", Genre="2",Blurb="2", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="Carson",Author="Alexander", Genre="Comedy",Blurb="My Life", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="Carson",Author="Alexander", Genre="Comedy",Blurb="My Life", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="Carson",Author="Alexander", Genre="Comedy",Blurb="My Life", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="Carson",Author="Alexander", Genre="Comedy",Blurb="My Life", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="2",Author="2", Genre="2",Blurb="2", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="2",Author="2", Genre="2",Blurb="2", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="2",Author="2", Genre="2",Blurb="2", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
-                new Book{BookTitle="2",Author="2", Genre="2",Blurb="2", StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-01"), Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="Carson",AuthorName="Alexander", Genre="Comedy",Blurb="My Life", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="2",AuthorName="2", Genre="2",Blurb="2", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="Carson",AuthorName="Alexander", Genre="Comedy",Blurb="My Life", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="2",AuthorName="2", Genre="2",Blurb="2", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="Carson",AuthorName="Alexander", Genre="Comedy",Blurb="My Life", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="Carson",AuthorName="Alexander", Genre="Comedy",Blurb="My Life", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="Carson",AuthorName="Alexander", Genre="Comedy",Blurb="My Life", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="Carson",AuthorName="Alexander", Genre="Comedy",Blurb="My Life", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="2",AuthorName="2", Genre="2",Blurb="2", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="2",AuthorName="2", Genre="2",Blurb="2", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="2",AuthorName="2", Genre="2",Blurb="2", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
+                new Book{BookTitle="2",AuthorName="2", Genre="2",Blurb="2", Image=("https://www.w3schools.com/images/w3schools_green.jpg") },
             };
             context.Books.AddRange(books);
             context.SaveChanges();
