@@ -1,18 +1,57 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
+
+
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #F4FDF9
+}
+
+.navbar.bg-header-colour {
+    background-color: #78A48E;
+}
+
+.btn.btn-primary {
+    background-color: #78A48E;
+    border: #78A48E;
+    color: white;
+}
+
+a {
+    color: #78A48E;
+}
+
+    a:hover {
+        color: #78A48E;
+    }
+
+
+.nav-link.text-dark {
+    color: white !important;
+}
+
+
+
+.bbbannerimage {
+    background-image: url('https://raw.githubusercontent.com/denzelesh/testfiles/main/Book%20Buddy%20New%20Header.png');
+    background-position: center center;
+    background-size: 100% auto;
+    overflow: hidden;
+    color: white;
+    background-repeat: no-repeat;
+    background-color: #78A48E;
+    height: 400px;
 }
