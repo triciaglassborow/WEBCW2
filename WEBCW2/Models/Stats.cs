@@ -4,9 +4,9 @@
     {
         public int StatsId { get; set; }
         public int UserID { get; set; }
-        public User User { get; set; }
+        public User? User { get; set; }
         public int BookID { get; set; }
-        public User Book { get; set; }
+        public Book? Book { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
     }
