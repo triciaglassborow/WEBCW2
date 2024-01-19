@@ -42,6 +42,11 @@
                             <span asp-validation-for="Book.Image" class="text-danger"></span>
                         </div>
                         <div class="form-group">
+                            <label asp-for="Book.UserID" class="control-label">Your userID:</label>
+                            <input asp-for="Book.UserID" class="form-control" />
+                            <span asp-validation-for="Book.UserID" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
                             <input type="submit" value="+Add" class="btn btn-primary" />
                         </div>
                     </form>
