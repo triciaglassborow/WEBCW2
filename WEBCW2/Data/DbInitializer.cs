@@ -20,6 +20,7 @@ namespace WEBCW2.Data
                 new User{Username="Username",LastName="Name2",FirstName="Ken"},
                 new User{Username="Username",LastName="Name3",FirstName="Ten"},
             };
+            context.Users.AddRange(users);
             //Can be deleted if we don't want books hard coded into the database
             var books = new Book[]
             {
@@ -39,22 +40,17 @@ namespace WEBCW2.Data
             context.Books.AddRange(books);
 
 
-            context.Users.AddRange(users);
+            
 
 
             var stats = new Stats[]
             {
-                new Stats{User=users[0],Book=books[1],FirstName="FirstName"},
-                new Stats{User=users[0],Book=books[2],FirstName="FirstName"},
-                new Stats{User=users[0],Book=books[3],FirstName="FirstName"},
+                new Stats{User=users[0],Book=books[1],StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-02"),},
+                new Stats{User=users[0],Book=books[2],StartDate=DateTime.Parse("2019-09-02"),EndDate=DateTime.Parse("2019-09-03"),},
+                new Stats{User=users[0],Book=books[3],StartDate=DateTime.Parse("2019-09-03"),EndDate=DateTime.Parse("2019-09-04"),},
             };
 
             context.Stats.AddRange(stats);
-
-
-
-
-
 
             context.SaveChanges();
         }
