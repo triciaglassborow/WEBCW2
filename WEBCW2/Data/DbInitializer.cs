@@ -43,11 +43,11 @@ namespace WEBCW2.Data
             
 
 
-            var stats = new Stats[]
+            var stats = new Stat[]
             {
-                new Stats{User=users[0],Book=books[1],StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-02"),},
-                new Stats{User=users[0],Book=books[2],StartDate=DateTime.Parse("2019-09-02"),EndDate=DateTime.Parse("2019-09-03"),},
-                new Stats{User=users[0],Book=books[3],StartDate=DateTime.Parse("2019-09-03"),EndDate=DateTime.Parse("2019-09-04"),},
+                new Stat{User=users[0],Book=books[1],StartDate=DateTime.Parse("2019-09-01"),EndDate=DateTime.Parse("2019-09-02"),},
+                new Stat{User=users[0],Book=books[2],StartDate=DateTime.Parse("2019-09-02"),EndDate=DateTime.Parse("2019-09-03"),},
+                new Stat{User=users[0],Book=books[3],StartDate=DateTime.Parse("2019-09-03"),EndDate=DateTime.Parse("2019-09-04"),},
             };
 
             context.Stats.AddRange(stats);

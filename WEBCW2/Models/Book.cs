@@ -15,6 +15,6 @@ namespace WEBCW2.Models
         public string Image { get; set; }
         public int UserID { get; set; }
         public User User { get; set; }
-        public ICollection<Stats> Stats { get; set; }
+        public ICollection<Stat> Stats { get; set; }
     }
 }

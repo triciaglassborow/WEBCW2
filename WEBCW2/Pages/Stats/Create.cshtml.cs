@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using WEBCW2.Data;
 using WEBCW2.Models;
 
-namespace WEBCW2.Pages.Books
+namespace WEBCW2.Pages.Stats
 {
     public class CreateModel : PageModel
     {
@@ -21,28 +21,27 @@ namespace WEBCW2.Pages.Books
 
         public IActionResult OnGet()
         {
+        ViewData["BookID"] = new SelectList(_context.Books, "ID", "ID");
+        ViewData["UserID"] = new SelectList(_context.Users, "ID", "ID");
             return Page();
         }
 
         [BindProperty]
-        public Book Book { get; set; } = default!;
+        public Stat Stats { get; set; } = default!;
         
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-            //Book existingBook = await Books.FirstOrDefault(
-            //Book existingBook = await _context.Books.(
-            //b => b.BookTitle == Book.BookTitle && b.AuthorName == Book.AuthorName);
-            if (!ModelState.IsValid || _context.Books == null || Book == null)
+          if (!ModelState.IsValid || _context.Stats == null || Stats == null)
             {
                 return Page();
-            } 
+            }
 
-            _context.Books.Add(Book);
+            _context.Stats.Add(Stats);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("../Index");
+            return RedirectToPage("./Index");
         }
     }
 }
