@@ -1,8 +1,8 @@
 ﻿namespace WEBCW2.Models
 {
-    public class Stats
+    public class Stat
     {
-        public int StatsId { get; set; }
+        public int StatID { get; set; }
         public int UserID { get; set; }
         public User? User { get; set; }
         public int BookID { get; set; }

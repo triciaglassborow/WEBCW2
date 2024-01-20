@@ -56,7 +56,8 @@ namespace WEBCW2.Pages.Books
             if (!String.IsNullOrEmpty(searchString))
             {
                 books = books.Where(s => s.BookTitle.Contains(searchString)
-                                      || s.AuthorName.Contains(searchString)
+                                      || s.Author.FirstName.Contains(searchString)
+                                      || s.Author.LastName.Contains(searchString)
                                       || s.Genre.Contains(searchString));
             }
             switch (sortOrder)
@@ -71,7 +72,7 @@ namespace WEBCW2.Pages.Books
                     books = books.OrderByDescending(s => s.Blurb);
                     break;
                 default:
-                    books = books.OrderBy(s => s.AuthorName);
+                    books = books.OrderBy(s => s.Author.FirstName);
                     break;
             }
 

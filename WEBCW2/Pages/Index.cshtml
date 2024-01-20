@@ -17,7 +17,10 @@
                                 <img src=@Html.DisplayFor(modelItem => item.Image) class="card-img-top" alt=@Html.DisplayFor(modelItem => item.Image)>
                                 <div class="card-body">
                                     <h5 class="card-title">@Html.DisplayFor(modelItem => item.BookTitle)</h5>
-                                    <p class="card-text">@Html.DisplayFor(modelItem => item.AuthorName)</p>
+                                    <p class="card-text">
+                                        @Html.DisplayFor(modelItem => item.Author.FirstName)
+                                        @Html.DisplayFor(modelItem => item.Author.LastName)
+                                    </p>
                                 </div>
                             </div>
                         </a>

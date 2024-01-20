@@ -8,6 +8,6 @@
         public string FirstName { get; set; }
         public ICollection<Book> Books { get; set; }
 
-        public ICollection<Stats> Stats { get; set; }
+        public ICollection<Stat> Stats { get; set; }
     }
 }
