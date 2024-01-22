@@ -1,0 +1,46 @@
+﻿@page
+@model WEBCW2.Pages.Stats.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Stat</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <p>@Html.DisplayFor(model => model.errorText1)</p>
+            <p>@Html.DisplayFor(model => model.errorText2)</p>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="Stat.BookID" class="control-label"></label>
+                <select asp-for="Stat.BookID" class ="form-control" asp-items="ViewBag.BookID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stat.StartDate" class="control-label"></label>
+                <input asp-for="Stat.StartDate" class="form-control" />
+                <span asp-validation-for="Stat.StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stat.EndDate" class="control-label"></label>
+                <input asp-for="Stat.EndDate" class="form-control" />
+                <span asp-validation-for="Stat.EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -23,18 +23,25 @@
 
 <div class="card">
     <div class="card-body">
-        <div class="card-body">
-            <div class="row row-cols-1 row-cols-md-3">
-                <!--BOOK 1-->
-                @foreach (var item in Model.Books)
-                {
-                    <div class="col mb-4">
-                        <a asp-page="/Books/Details" asp-route-id="@item.ID">
-                            <div class="card h-100">
-                                <img src=@Html.DisplayFor(modelItem => item.Image) class="card-img-top" alt=@Html.DisplayFor(modelItem => item.Image)>
-                                <div class="card-body">
-                                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.BookTitle)</h5>
-                                    <p class="card-text">@Html.DisplayFor(modelItem => item.Author)</p>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <!--BOOK 1-->
+                    @foreach (var item in Model.Books)
+                    {
+                        <div class="col mb-4">
+                            <a asp-page="/Books/Details" asp-route-id="@item.ID">
+                                <div class="card h-100">
+                                    <img src=@Html.DisplayFor(modelItem => item.Image) class="card-img-top" alt=@Html.DisplayFor(modelItem => item.Image)>
+                                    <div class="card-body">
+                                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.BookTitle)</h5>
+                                        <p class="card-text">
+                                            @Html.DisplayFor(modelItem => item.Author.FirstName)
+                                            @Html.DisplayFor(modelItem => item.Author.LastName)
+                                        </p>
+                                    </div>
+
                                 </div>
                             </div>
                         </a>
@@ -45,69 +52,7 @@
     </div>
 </div>
 
-<!--<table class="table">
-    <thead>
-        <tr>
-            <th>
-@Html.DisplayNameFor(model => model.Books[0].BookTitle)
-            </th>
-            <th>
-@Html.DisplayNameFor(model => model.Books[0].Author)
-            </th>
-            <th>
-@Html.DisplayNameFor(model => model.Books[0].Genre)
-            </th>
-            <th>
-@Html.DisplayNameFor(model => model.Books[0].Blurb)
-            </th>
-            <th>
-@Html.DisplayNameFor(model => model.Books[0].StartDate)
-            </th>
-            <th>
-@Html.DisplayNameFor(model => model.Books[0].EndDate)
-            </th>
-            <th>
-@Html.DisplayNameFor(model => model.Books[0].Image)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
 
-@foreach (var item in Model.Books)
-{
-            <tr>
-                <td>
-            @Html.DisplayFor(modelItem => item.BookTitle)
-                </td>
-                <td>
-            @Html.DisplayFor(modelItem => item.Author)
-                </td>
-                <td>
-            @Html.DisplayFor(modelItem => item.Genre)
-                </td>
-                <td>
-            @Html.DisplayFor(modelItem => item.Blurb)
-                </td>
-                <td>
-            @Html.DisplayFor(modelItem => item.StartDate)
-                </td>
-                <td>
-            @Html.DisplayFor(modelItem => item.EndDate)
-                </td>
-                <td>
-            @Html.DisplayFor(modelItem => item.Image)
-                </td>
-                <td>
-                    <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                    <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
-                </td>
-            </tr>
-}
-    </tbody>
-</table>
--->
 @{
     var prevDisabled = !Model.Books.HasPreviousPage ? "disabled" : "";
     var nextDisabled = !Model.Books.HasNextPage ? "disabled" : "";

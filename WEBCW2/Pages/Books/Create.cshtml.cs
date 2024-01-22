@@ -26,20 +26,80 @@ namespace WEBCW2.Pages.Books
 
         [BindProperty]
         public Book Book { get; set; } = default!;
-        
-
-        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
-        public async Task<IActionResult> OnPostAsync()
+        public User Users { get; set; } = default!;
+        public String errorText1 { get; set; } = "";
+		public String errorText2 { get; set; } = "";
+		// To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+		public async Task<IActionResult> OnPostAsync()
         {
-         /* if (!ModelState.IsValid || _context.Books == null || Book == null)
-            {
+            Boolean duplicateChecker = false;
+            Boolean userChecker = false;
+            Boolean authorChecker = false;
+            //Book existingBook = await Books.FirstOrDefault(
+            //Book existingBook = await _context.Books.(
+            //b => b.BookTitle == Book.BookTitle && b.AuthorName == Book.AuthorName);
+            foreach (var item in _context.Books) 
+            { 
+                if (item.AuthorID== Book.Author.ID && item.BookTitle == Book.BookTitle) 
+                {
+                    duplicateChecker = true;
+					errorText1 = "Book with this Author already exists";
+				}
                 
+            }
+            foreach (var item in _context.Users)
+            {
+                if (item.ID == Book.UserID)
+                {
+                    Book.User = item;
+                    userChecker = true;
+
+                }
+                
+            }
+            foreach (var item in _context.Authors)
+            {
+                if (item.ID == Book.UserID)
+                {
+                    Book.Author = item;
+                    authorChecker = true;
+
+                }
+
+            }
+            /*if (!ModelState.IsValid || _context.Books == null || Book == null)
+            {
+                return Page();
             } */
+            if (!duplicateChecker && userChecker && authorChecker)
+            {
+                errorText1 = "";
+                errorText2 = "";
+                _context.Books.Add(Book);
 
-            _context.Books.Add(Book);
-            await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
 
-            return RedirectToPage("../Index");
+                return RedirectToPage("../Index");
+            }
+            else if (!duplicateChecker)
+            {
+                errorText2 = "User and author doesn't exists";
+                return Page();
+            }
+            else if (!userChecker) {
+                errorText2 = "User doesn't exists";
+                return Page();
+            }
+            else if (!authorChecker)
+            {
+                errorText2 = "Author doesn't exists";
+                return Page();
+            }
+            else
+            {
+
+                return Page();
+            }
         }
     }
 }

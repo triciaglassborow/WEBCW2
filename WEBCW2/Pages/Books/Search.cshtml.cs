@@ -56,22 +56,24 @@ namespace WEBCW2.Pages.Books
             if (!String.IsNullOrEmpty(searchString))
             {
                 books = books.Where(s => s.BookTitle.Contains(searchString)
-                                      || s.Author.Contains(searchString)
-                                      || s.Genre.Contains(searchString));
-            }
+                                      || s.Author.FirstName.Contains(searchString)
+                                      || s.Author.LastName.Contains(searchString)
+                                      || s.Genre.Contains(searchString)
+									  || s.ID.ToString().Contains(searchString));
+			}
             switch (sortOrder)
             {
                 case "name_desc":
                     books = books.OrderByDescending(s => s.BookTitle);
                     break;
                 case "Date":
-                    books = books.OrderBy(s => s.StartDate);
+                    books = books.OrderBy(s => s.Genre);
                     break;
                 case "date_desc":
-                    books = books.OrderByDescending(s => s.StartDate);
+                    books = books.OrderByDescending(s => s.Blurb);
                     break;
                 default:
-                    books = books.OrderBy(s => s.Author);
+                    books = books.OrderBy(s => s.Author.FirstName);
                     break;
             }
 

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using WEBCW2.Data;
 using WEBCW2.Models;
 
-namespace WEBCW2.Pages.Books
+namespace WEBCW2.Pages.Stats
 {
     public class DetailsModel : PageModel
     {
@@ -19,27 +19,23 @@ namespace WEBCW2.Pages.Books
             _context = context;
         }
 
-        public Book Book { get; set; } = default!;
+      public Stat Stat { get; set; } = default!; 
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Books == null)
+            if (id == null || _context.Stats == null)
             {
                 return NotFound();
             }
 
-            var book = await _context.Books
-            .Include(s => s.User)
-            .AsNoTracking()
-            .FirstOrDefaultAsync(m => m.ID == id);
-
-            if (book == null)
+            var stat = await _context.Stats.FirstOrDefaultAsync(m => m.StatID == id);
+            if (stat == null)
             {
                 return NotFound();
             }
-            else
+            else 
             {
-                Book = book;
+                Stat = stat;
             }
             return Page();
         }
