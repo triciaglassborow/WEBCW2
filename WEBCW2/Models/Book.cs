@@ -12,10 +12,10 @@ namespace WEBCW2.Models
         public string Genre { get; set; }
         public string Blurb { get; set; }
         public string Image { get; set; }
-        public int UserID { get; set; }
-        public User User { get; set; }
-        public int AuthorID { get; set; }
-        public Author Author { get; set; }
+        public int? UserID { get; set; }
+        public User? User { get; set; }
+        public int? AuthorID { get; set; }
+        public Author? Author { get; set; }
         public ICollection<Stat> Stats { get; set; }
     }
 }

@@ -15,9 +15,9 @@ namespace WEBCW2.Data
 
             var users = new User[]
             {
-                new User{Username="Username",LastName="Name",FirstName="Ben"},
-                new User{Username="Username",LastName="Name2",FirstName="Ken"},
-                new User{Username="Username",LastName="Name3",FirstName="Ten"},
+                new User{LastName="Name",FirstName="Ben"},
+                new User{LastName="Name2",FirstName="Ken"},
+                new User{LastName="Name3",FirstName="Ten"},
             };
             context.Users.AddRange(users);
 
