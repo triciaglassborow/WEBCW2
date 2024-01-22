@@ -9,20 +9,21 @@
     <form asp-action="Index" method="get">
         <div class="form-actions no-color">
             <p>
-                Find by name: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+                Search: <input type="text" placeholder="Title, Author or Genre" name="SearchString" value="@ViewData["CurrentFilter"]" />
                 <input type="submit" value="Search" class="btn btn-default" /> |
                 <a asp-action="Index">Back to Full List</a>
             </p>
         </div>
     </form>
-    <div class="input-group-append" id="button-addon4">
+    <!--<div class="input-group-append" id="button-addon4">
         <button class="btn btn-outline-secondary" type="button">SORT</button>
         <button class="btn btn-outline-secondary" type="button">FILTER</button>
-    </div>
+    </div>-->
 </div>
 
 <div class="card">
     <div class="card-body">
+
         <div class="card">
             <div class="card-body">
                 <div class="row row-cols-1 row-cols-md-3">
@@ -40,15 +41,17 @@
                                             @Html.DisplayFor(modelItem => item.Author.LastName)
                                         </p>
                                     </div>
+
                                 </div>
-                            </a>
-                        </div>
-                    }
-                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
             </div>
         </div>
     </div>
 </div>
+
 
 @{
     var prevDisabled = !Model.Books.HasPreviousPage ? "disabled" : "";
