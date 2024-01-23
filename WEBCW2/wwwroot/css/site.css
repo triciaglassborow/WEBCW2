@@ -1,5 +1,8 @@
+/* Razor Pages Default Code */
 html {
     font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -8,27 +11,30 @@ html {
     }
 }
 
+/* ---------------------- */
 
-
-html {
-    position: relative;
-    min-height: 100%;
-}
 
 body {
+    /*  Add custom background to complement header background*/
     margin-bottom: 60px;
     background-color: #F4FDF9
 }
 
 .navbar.bg-header-colour {
+    /*  Custom Hex Colour For Header */
     background-color: #78A48E;
 }
+
+/* Custom Hex For  Buttons */
 
 .btn.btn-primary {
     background-color: #78A48E;
     border: #78A48E;
     color: white;
 }
+
+/* Makes all page links match the same colour of the header 
+    for conisitency and match logo*/
 
 a {
     color: #78A48E;
@@ -40,18 +46,22 @@ a {
 
 
 .nav-link.text-dark {
+    /* Makes Page Names White */
     color: white !important;
 }
 
 
 
 .bbbannerimage {
+
+    /* Designed & Added Header(Banner) Image SRC*/
     background-image: url('https://raw.githubusercontent.com/denzelesh/testfiles/main/Book%20Buddy%20New%20Header.png');
+      /* Centered Image to Be Contained Within Browser and prevent Overflow For Responsivness  */
     background-position: center center;
     background-size: 100% auto;
     overflow: hidden;
     color: white;
     background-repeat: no-repeat;
-    background-color: #78A48E;
+    background-color: #78A48E; /* Custom Color To Better Intergarte Banner Image with Background*/
     height: 400px;
 }
