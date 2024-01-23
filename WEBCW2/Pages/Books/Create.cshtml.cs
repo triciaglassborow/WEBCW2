@@ -40,7 +40,7 @@ namespace WEBCW2.Pages.Books
             //b => b.BookTitle == Book.BookTitle && b.AuthorName == Book.AuthorName);
             foreach (var item in _context.Books) 
             { 
-                if (item.AuthorID== Book.Author.ID && item.BookTitle == Book.BookTitle) 
+                if (item.AuthorID== Book.AuthorID && item.BookTitle == Book.BookTitle) 
                 {
                     duplicateChecker = true;
 					errorText1 = "Book with this Author already exists";
