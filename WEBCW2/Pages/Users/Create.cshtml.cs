@@ -31,10 +31,6 @@ namespace WEBCW2.Pages.Users
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-          if (!ModelState.IsValid || _context.Users == null || User == null)
-            {
-                return Page();
-            }
 
             _context.Users.Add(User);
             await _context.SaveChangesAsync();
