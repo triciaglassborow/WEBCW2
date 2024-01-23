@@ -11,8 +11,9 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-header-colour border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">
+            <div class="container"> <!-- Added Containter to contain book card images and text (For responsivness) -->
+                <a class="navbar-brand" asp-area="" asp-page="/Index"> 
+                    <!-- Removed Header Text & Added Header Logo -->
                     <img src="https://raw.githubusercontent.com/denzelesh/testfiles/main/BookBuddy-Logo.png" alt="Book Buddy Logo" height="30" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -35,16 +36,16 @@
             </div>
         </nav>
     </header>
-    <div class="bbbannerimage jumbotron-fluid text-center"></div>
+    <div class="bbbannerimage jumbotron-fluid text-center"></div> <!-- Added Bootstrap Jumbotron Header Image -->
 
-    <br></br>
+    <br></br>  <!-- Added universal breaks For separation between hero image and page details -->
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted"> <!-- Custom Footer Text -->
         <div class="container">
             &copy; 2024 - BookBuddy. All Right Reserved - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
