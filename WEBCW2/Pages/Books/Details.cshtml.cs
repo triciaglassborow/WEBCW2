@@ -20,6 +20,7 @@ namespace WEBCW2.Pages.Books
         }
 
         public Book Book { get; set; } = default!;
+        public Author Author { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,11 +29,19 @@ namespace WEBCW2.Pages.Books
                 return NotFound();
             }
 
+            
             var book = await _context.Books
             .Include(s => s.User)
             .AsNoTracking()
             .FirstOrDefaultAsync(m => m.ID == id);
 
+            foreach (var item in _context.Authors) 
+            {
+                if (item.ID == book.AuthorID)
+                {
+                    Author = item;
+                }
+            }
             if (book == null)
             {
                 return NotFound();

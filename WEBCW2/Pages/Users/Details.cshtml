@@ -33,7 +33,7 @@
 			}
 		</dd>
 		<dt class="col-sm-2">
-			<p>Average time spent reading</p>
+			<p>Total time spent reading</p>
 		</dt>
 		<dd class="col-sm-10">
 			@if (Model.LongestTime != null)
@@ -41,7 +41,15 @@
 				@Html.DisplayFor(model => model.TotalTime)
 			}
 		</dd>
-
+		<dt class="col-sm-2">
+			<p>Average time spent reading</p>
+		</dt>
+		<dd class="col-sm-10">
+			@if (Model.LongestTime != null)
+			{
+				@Html.DisplayFor(model => model.AverageTime)
+			}
+		</dd>
 		<p></p>
 
 		<dt class="col-sm-2">
@@ -97,9 +105,20 @@
 						@Html.DisplayFor(modelItem => item.Book.BookTitle)
 					</td>
 					<td>
-						@Html.DisplayFor(modelItem => item.Book.AuthorID)
+						@Html.DisplayFor(modelItem => item.Book.Author.ID)
 					</td>
-
+					<td>
+						@Html.DisplayFor(modelItem => item.Book.Author.FirstName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Book.Author.LastName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.StartDate)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.EndDate)
+					</td>
 				</tr>
 			}
 		</table>

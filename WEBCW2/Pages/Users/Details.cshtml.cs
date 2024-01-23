@@ -23,8 +23,9 @@ namespace WEBCW2.Pages.Users
         public User User { get; set; } = default!;
         public List<Stat> Stats { get; set; } = new List<Stat>();
 		public List<Book> Books { get; set; } = new List<Book>();
+        public List<Author> Author { get; set; } = new List<Author>();
 
-		public TimeSpan? LongestTime { get; set; } = null;
+        public TimeSpan? LongestTime { get; set; } = null;
 		public TimeSpan? TotalTime { get; set; } = null;
 		public TimeSpan? AverageTime { get; set; } = null;
 
@@ -46,6 +47,7 @@ namespace WEBCW2.Pages.Users
             }
 
             var user = await _context.Users.FirstOrDefaultAsync(m => m.ID == id);
+
             if (user == null)
             {
                 return NotFound();
@@ -58,7 +60,6 @@ namespace WEBCW2.Pages.Users
                 {
                     foreach (var item in _context.Stats)
                     {
-
 						count++;
                         
 						TotalTimeCalculator(item);
@@ -71,7 +72,14 @@ namespace WEBCW2.Pages.Users
 
 								Books.Add(item2);
 							}
-						}
+                            foreach (var item3 in _context.Authors)
+                            {
+                                if (item3.ID == item2.AuthorID)
+                                {
+                                    Author.Add(item3);
+                                }
+                            }
+                        }
 
 						AddItem(item , id);
                     }
