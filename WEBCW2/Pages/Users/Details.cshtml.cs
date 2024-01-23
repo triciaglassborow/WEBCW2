@@ -11,18 +11,19 @@ using WEBCW2.Models;
 
 namespace WEBCW2.Pages.Users
 {
-    public class DetailsModel : PageModel
-    {
-        private readonly WEBCW2.Data.LibraryContext _context;
+	public class DetailsModel : PageModel
+	{
+		private readonly WEBCW2.Data.LibraryContext _context;
 
-        public DetailsModel(WEBCW2.Data.LibraryContext context)
-        {
-            _context = context;
-        }
+		public DetailsModel(WEBCW2.Data.LibraryContext context)
+		{
+			_context = context;
+		}
 
-        public User User { get; set; } = default!;
-        public List<Stat> Stats { get; set; } = new List<Stat>();
+		public User User { get; set; } = default!;
+		public List<Stat> Stats { get; set; } = new List<Stat>();
 		public List<Book> Books { get; set; } = new List<Book>();
+		public List<Author> Author { get; set; } = new List<Author>();
 
 		public TimeSpan? LongestTime { get; set; } = null;
 		public TimeSpan? TotalTime { get; set; } = null;
@@ -38,29 +39,29 @@ namespace WEBCW2.Pages.Users
 		public int? ThrillerCount { get; set; } = 0;
 		public int? RomanceCount { get; set; } = 0;
 		public async Task<IActionResult> OnGetAsync(int? id)
-        {
-            int count = 0;
-            if (id == null || _context.Users == null)
-            {
-                return NotFound();
-            }
+		{
+			int count = 0;
+			if (id == null || _context.Users == null)
+			{
+				return NotFound();
+			}
 
-            var user = await _context.Users.FirstOrDefaultAsync(m => m.ID == id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                User = user;
+			var user = await _context.Users.FirstOrDefaultAsync(m => m.ID == id);
 
-                if (_context.Stats != null)
-                {
-                    foreach (var item in _context.Stats)
-                    {
+			if (user == null)
+			{
+				return NotFound();
+			}
+			else
+			{
+				User = user;
 
+				if (_context.Stats != null)
+				{
+					foreach (var item in _context.Stats)
+					{
 						count++;
-                        
+
 						TotalTimeCalculator(item);
 						LongestTimeCalculator(item);
 
@@ -71,23 +72,30 @@ namespace WEBCW2.Pages.Users
 
 								Books.Add(item2);
 							}
+							foreach (var item3 in _context.Authors)
+							{
+								if (item3.ID == item2.AuthorID)
+								{
+									Author.Add(item3);
+								}
+							}
 						}
 
-						AddItem(item , id);
-                    }
-                    AverageTime = TotalTime / count;
-                }
-                else
-                {
-                    return Page();
-                }
-            }
+						AddItem(item, id);
+					}
+					AverageTime = TotalTime / count;
+				}
+				else
+				{
+					return Page();
+				}
+			}
 			foreach (var item in Books)
 			{
 				GenreChecker(item);
 			}
 			return Page();
-        }
+		}
 
 		//Finds the Longest time spent reading
 		private void LongestTimeCalculator(Stat item)
