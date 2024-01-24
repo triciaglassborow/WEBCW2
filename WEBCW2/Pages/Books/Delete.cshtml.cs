@@ -29,7 +29,11 @@ namespace WEBCW2.Pages.Books
                 return NotFound();
             }
 
-            var book = await _context.Books.FirstOrDefaultAsync(m => m.ID == id);
+            var book = await _context.Books
+            .Include(s => s.User)
+            .AsNoTracking()
+            .FirstOrDefaultAsync(m => m.ID == id);
+
             //Searches each item to find the author with the same ID
             foreach (var item in _context.Authors)
             {
