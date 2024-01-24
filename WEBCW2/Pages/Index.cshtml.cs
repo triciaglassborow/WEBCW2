@@ -15,10 +15,15 @@ namespace WEBCW2.Pages
         }
 
         public IList<Book> Book { get; set; } = default!;
+        public IList<Author> Author { get; set; } = default!;
         public int count { get; set; } = 0;
 
         public async Task OnGetAsync()
         {
+            if (_context.Authors != null)
+            {
+                Author = await _context.Authors.ToListAsync();
+            }
             if (_context.Books != null)
             {
                 Book = await _context.Books.ToListAsync();

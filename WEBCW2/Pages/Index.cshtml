@@ -22,8 +22,16 @@
                                         <!--Displays book details-->
                                         <h5 class="card-title">@Html.DisplayFor(modelItem => item.BookTitle)</h5>
                                         <p class="card-text">
-                                            @Html.DisplayFor(modelItem => item.Author.FirstName)
-                                            @Html.DisplayFor(modelItem => item.Author.LastName)
+                                            @foreach (var author in Model.Author)
+                                            {
+                                                if (item.AuthorID == author.ID)
+                                                {
+                                                <p>
+                                                        @Html.DisplayFor(modelItem => author.FirstName)
+                                                        @Html.DisplayFor(modelItem => author.LastName)
+                                                </p>
+                                                }
+                                            }
                                         </p>
                                     </div>
                                 </div>
