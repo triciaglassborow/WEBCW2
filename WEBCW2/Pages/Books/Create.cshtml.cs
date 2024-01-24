@@ -35,9 +35,8 @@ namespace WEBCW2.Pages.Books
 			Boolean duplicateChecker = false;
 			Boolean userChecker = false;
 			Boolean authorChecker = false;
-			//Book existingBook = await Books.FirstOrDefault(
-			//Book existingBook = await _context.Books.(
-			//b => b.BookTitle == Book.BookTitle && b.AuthorName == Book.AuthorName);
+
+			//Checks if the book already exists in the database
 			foreach (var item in _context.Books)
 			{
 				if (item.AuthorID == Book.AuthorID && item.BookTitle == Book.BookTitle)
@@ -47,6 +46,8 @@ namespace WEBCW2.Pages.Books
 				}
 
 			}
+
+			//Adds the ID of the user to the book
 			foreach (var item in _context.Users)
 			{
 				if (item.ID == Book.UserID)
@@ -57,6 +58,8 @@ namespace WEBCW2.Pages.Books
 				}
 
 			}
+
+			//Adds the ID of the author to the book
 			foreach (var item in _context.Authors)
 			{
 				if (item.ID == Book.UserID)
@@ -67,10 +70,8 @@ namespace WEBCW2.Pages.Books
 				}
 
 			}
-			/*if (!ModelState.IsValid || _context.Books == null || Book == null)
-            {
-                return Page();
-            } */
+			
+			//Checks if there are no duplicates and author and user exists on the database
 			if (!duplicateChecker && userChecker && authorChecker)
 			{
 				errorText1 = "";
@@ -98,7 +99,6 @@ namespace WEBCW2.Pages.Books
 			}
 			else
 			{
-
 				return Page();
 			}
 		}

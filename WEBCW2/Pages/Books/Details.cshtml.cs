@@ -35,14 +35,16 @@ namespace WEBCW2.Pages.Books
 			.AsNoTracking()
 			.FirstOrDefaultAsync(m => m.ID == id);
 
+			//Searches each item to find the author with the same ID
 			foreach (var item in _context.Authors)
 			{
 				if (item.ID == book.AuthorID)
 				{
 					Author = item;
 				}
-			}
-			if (book == null)
+            }
+            //Checks if a book was given or if the page was accessed without providing a book
+            if (book == null)
 			{
 				return NotFound();
 			}

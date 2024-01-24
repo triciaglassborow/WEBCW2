@@ -4,30 +4,33 @@
     ViewData["Title"] = "Home page";
 }
 
-
-<h1>Newest Releases</h1>
-
 <div class="card">
     <div class="card-body">
         <div class="card-body">
             <div class="row row-cols-1 row-cols-md-3">
-                <!--BOOK 1-->
+                <!--Displayes each book in it's own card-->
                 @foreach (var item in Model.Book)
                 {
-                    <div class="col mb-4">
-                        <a asp-page="/Books/Details" asp-route-id="@item.ID">
-                            <div class="card h-100">
-                                <img src=@Html.DisplayFor(modelItem => item.Image) class="card-img-top" alt=@Html.DisplayFor(modelItem => item.Image)>
-                                <div class="card-body">
-                                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.BookTitle)</h5>
-                                    <p class="card-text">
-                                        @Html.DisplayFor(modelItem => item.Author.FirstName)
-                                        @Html.DisplayFor(modelItem => item.Author.LastName)
-                                    </p>
+                    @if (Model.count < 30)
+                    {
+                        <div class="col mb-4">
+                            <a asp-page="/Books/Details" asp-route-id="@item.ID">
+                                <div class="card h-100">
+                                    <!--Displays image of book-->
+                                    <img src=@Html.DisplayFor(modelItem => item.Image) class="card-img-top" alt=@Html.DisplayFor(modelItem => item.Image)>
+                                    <div class="card-body">
+                                        <!--Displays book details-->
+                                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.BookTitle)</h5>
+                                        <p class="card-text">
+                                            @Html.DisplayFor(modelItem => item.Author.FirstName)
+                                            @Html.DisplayFor(modelItem => item.Author.LastName)
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
+                        Model.count++;
+                    }
                 }
             </div>
         </div>

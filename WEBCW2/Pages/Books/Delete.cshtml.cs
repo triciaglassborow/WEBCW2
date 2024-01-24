@@ -21,7 +21,7 @@ namespace WEBCW2.Pages.Books
 
         [BindProperty]
       public Book Book { get; set; } = default!;
-
+        public Author Author { get; set; } = default!;
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null || _context.Books == null)
@@ -30,7 +30,15 @@ namespace WEBCW2.Pages.Books
             }
 
             var book = await _context.Books.FirstOrDefaultAsync(m => m.ID == id);
-
+            //Searches each item to find the author with the same ID
+            foreach (var item in _context.Authors)
+            {
+                if (item.ID == book.AuthorID)
+                {
+                    Author = item;
+                }
+            }
+            //Checks if a book was given or if the page was accessed without providing a book
             if (book == null)
             {
                 return NotFound();
