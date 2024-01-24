@@ -46,7 +46,7 @@ namespace WEBCW2.Pages.Stats
                 if (id == item.ID)
                 {
                     UserExistsChecker = true;
-                    item.ID = id.Value;
+                    Stat.UserID = id.Value;
                 }
             }
             foreach (var item in _context.Books)
