@@ -12,6 +12,12 @@
 	<hr />
 	<dl class="row">
 		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.User.ID)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.User.ID)
+		</dd>
+		<dt class="col-sm-2">
 			@Html.DisplayNameFor(model => model.User.LastName)
 		</dt>
 		<dd class="col-sm-10">
@@ -33,7 +39,7 @@
 			}
 		</dd>
 		<dt class="col-sm-2">
-			<p>Average time spent reading</p>
+			<p>Total time spent reading</p>
 		</dt>
 		<dd class="col-sm-10">
 			@if (Model.LongestTime != null)
@@ -41,7 +47,15 @@
 				@Html.DisplayFor(model => model.TotalTime)
 			}
 		</dd>
-
+		<dt class="col-sm-2">
+			<p>Average time spent reading</p>
+		</dt>
+		<dd class="col-sm-10">
+			@if (Model.LongestTime != null)
+			{
+				@Html.DisplayFor(model => model.AverageTime)
+			}
+		</dd>
 		<p></p>
 
 		<dt class="col-sm-2">
@@ -86,6 +100,29 @@
 	@if (Model.Stats.Count != 0)
 	{
 		<table class="table">
+			<tr>
+				<td>
+					@Html.DisplayNameFor(modelItem => Model.Stats[0].BookID)
+				</td>
+				<td>
+					@Html.DisplayNameFor(modelItem => Model.Stats[0].Book.BookTitle)
+				</td>
+				<td>
+					@Html.DisplayNameFor(modelItem => Model.Stats[0].Book.Author.ID)
+				</td>
+				<td>
+					@Html.DisplayNameFor(modelItem => Model.Stats[0].Book.Author.FirstName)
+				</td>
+				<td>
+					@Html.DisplayNameFor(modelItem => Model.Stats[0].Book.Author.LastName)
+				</td>
+				<td>
+					@Html.DisplayNameFor(modelItem => Model.Stats[0].StartDate)
+				</td>
+				<td>
+					@Html.DisplayNameFor(modelItem => Model.Stats[0].EndDate)
+				</td>
+			</tr>
 			@foreach (var item in Model.Stats)
 			{
 
@@ -97,9 +134,20 @@
 						@Html.DisplayFor(modelItem => item.Book.BookTitle)
 					</td>
 					<td>
-						@Html.DisplayFor(modelItem => item.Book.AuthorID)
+						@Html.DisplayFor(modelItem => item.Book.Author.ID)
 					</td>
-
+					<td>
+						@Html.DisplayFor(modelItem => item.Book.Author.FirstName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Book.Author.LastName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.StartDate)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.EndDate)
+					</td>
 				</tr>
 			}
 		</table>

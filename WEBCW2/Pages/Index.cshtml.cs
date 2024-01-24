@@ -15,6 +15,7 @@ namespace WEBCW2.Pages
         }
 
         public IList<Book> Book { get; set; } = default!;
+        public int count { get; set; } = 0;
 
         public async Task OnGetAsync()
         {

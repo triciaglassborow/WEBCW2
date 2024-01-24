@@ -39,6 +39,7 @@ namespace WEBCW2.Pages.Books
             CurrentSort = sortOrder;
             NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             DateSort = sortOrder == "Date" ? "date_desc" : "Date";
+
             if (searchString != null)
             {
                 pageIndex = 1;
@@ -52,7 +53,7 @@ namespace WEBCW2.Pages.Books
 
             IQueryable<Book> books = from s in _context.Books
                                      select s;
-
+            //Check the string inserted in the input and provides any book that contains the string in its title, author, genre or ID
             if (!String.IsNullOrEmpty(searchString))
             {
                 books = books.Where(s => s.BookTitle.Contains(searchString)
@@ -61,21 +62,6 @@ namespace WEBCW2.Pages.Books
                                       || s.Genre.Contains(searchString)
 									  || s.ID.ToString().Contains(searchString));
 			}
-            switch (sortOrder)
-            {
-                case "name_desc":
-                    books = books.OrderByDescending(s => s.BookTitle);
-                    break;
-                case "Date":
-                    books = books.OrderBy(s => s.Genre);
-                    break;
-                case "date_desc":
-                    books = books.OrderByDescending(s => s.Blurb);
-                    break;
-                default:
-                    books = books.OrderBy(s => s.Author.FirstName);
-                    break;
-            }
 
             var pageSize = Configuration.GetValue("PageSize", 9);
             Books = await PaginatedList<Book>.CreateAsync(

@@ -8,62 +8,73 @@
 <h1>Delete</h1>
 
 <h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Book</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            Book Title
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Book.BookTitle)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Book.Author.ID)
+<div class="card">
+    <div class="card-body">
+        <div class=" row">
+            <div class="col-sm-3">
+                <!-- Puts Image On Left -->
+                <img src=@Html.DisplayFor(model => model.Book.Image) class="card-img-top" alt=@Html.DisplayFor(model => model.Book.Image)>
+            </div>
+            <div class="col-sm-9">
+                <!-- Puts Text Content On Right-->
+                <h4>Book </h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-4">
+                        Title:
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Book.BookTitle)
+                    </dd>
+                    <dt class="col-sm-4">
+                        Author ID:
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Book.AuthorID)
+                    </dd>
+                    <dt class="col-sm-4">
+                        Author First Name:
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Author.FirstName)
+                    </dd>
+                    <dt class="col-sm-4">
+                        Author Last Name:
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Author.LastName)
+                    </dd>
+                    <dt class="col-sm-4">
+                        Genre:
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Book.Genre)
+                    </dd>
+                    <dt class="col-sm-4">
+                        Blurb:
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Book.Blurb)
+                    </dd>
+                    <dt class="col-sm-4">
+                        Added By:
 
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Book.Author.ID)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Book.Author.FirstName)
-
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Book.Author.FirstName)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Book.Author.LastName)
-
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Book.Genre)
-
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Book.Genre)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Book.Blurb)
-
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Book.Blurb)
-        </dd>
-        <dt class="col-sm-2">
-            Cover
-        </dt>
-        <dd class="col-sm-10">
-            <img src=@Html.DisplayFor(model => model.Book.Image) class="card-img-top" alt=@Html.DisplayFor(model => model.Book.Image)>
-        </dd>
-    </dl>
-    
-    <form method="post">
-        <input type="hidden" asp-for="Book.ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" />
-    </form>
-
-    <div>
-        <a asp-page="../Index">Back to Home</a>
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Book.User.FirstName)
+                    </dd>
+                </dl>
+            </div>
+        </div>
     </div>
+</div>
+
+<form method="post">
+    <input type="hidden" asp-for="Book.ID" />
+    <input type="submit" value="Delete" class="btn btn-danger" />
+</form>
+
+<div>
+    <a asp-page="../Index">Back to Home</a>
+</div>
 </div>

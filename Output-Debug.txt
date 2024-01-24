@@ -1,0 +1,360 @@
+﻿'WEBCW2.exe' (CoreCLR: DefaultDomain): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Private.CoreLib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\bin\Debug\net6.0\WEBCW2.dll'. Symbols loaded.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\SDK\8.0.101\DotnetTools\dotnet-watch\8.0.101-servicing.23580.21\tools\net8.0\any\middleware\Microsoft.AspNetCore.Watch.BrowserRefresh.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Net.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.IO.Pipes.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Linq.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Collections.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Console.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Threading.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Threading.Overlapped.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Security.AccessControl.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Security.Principal.Windows.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Runtime.InteropServices.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Security.Claims.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\Microsoft.Win32.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Runtime.Loader.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Hosting.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\netstandard.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Collections.Concurrent.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Http.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Routing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.ComponentModel.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Features.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.DependencyInjection.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Mvc.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Mvc.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Logging.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Hosting.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Diagnostics.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.StaticFiles.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Authorization.Policy.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Mvc.RazorPages.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Step into: Stepping over non-user code 'Program.<>c__DisplayClass0_0..ctor'
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Configuration.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Hosting.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Logging.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Configuration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Hosting.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.DependencyInjection.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Configuration.EnvironmentVariables.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Server.Kestrel.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Server.Kestrel.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Net.Quic.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Diagnostics.Tracing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Server.IIS.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Server.IISIntegration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Configuration.CommandLine.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.FileProviders.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.FileProviders.Physical.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Razor.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Configuration.FileExtensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Configuration.Binder.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Configuration.Json.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.IO.FileSystem.Watcher.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.ComponentModel.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Memory.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.FileSystemGlobbing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Text.Json.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Text.Encoding.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Numerics.Vectors.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Runtime.CompilerServices.Unsafe.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Configuration.UserSecrets.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.FileProviders.Composite.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Private.Uri.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Reflection.Emit.Lightweight.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Reflection.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Reflection.Emit.ILGeneration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Text.Encodings.Web.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Runtime.Intrinsics.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Options.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Logging.EventLog.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Logging.Configuration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Options.ConfigurationExtensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Logging.Console.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Logging.Debug.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Logging.EventSource.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Diagnostics.DiagnosticSource.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Http.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Connections.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Net.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.HostFiltering.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.HttpOverrides.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Routing.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.ObjectPool.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.ObjectModel.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Mvc.Razor.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Mvc.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Authentication.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Authentication.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Authorization.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Mvc.DataAnnotations.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Razor.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Mvc.ViewFeatures.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.JSInterop.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Components.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Components.Web.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Linq.Expressions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.DataProtection.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.DataProtection.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Cryptography.Internal.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Antiforgery.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.WebEncoders.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Caching.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Caching.Memory.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Mvc.TagHelpers.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Diagnostics.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Extensions.Localization.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Threading.Thread.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Runtime.InteropServices.RuntimeInformation.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\System.Diagnostics.EventLog.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Collections.Specialized.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.ComponentModel.TypeConverter.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Net.Sockets.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Threading.ThreadPool.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\System.IO.Pipelines.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Collections.Immutable.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Data.Common.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Transactions.Local.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'Anonymously Hosted DynamicMethods Assembly'. 
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.ComponentModel.Annotations.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Net.NetworkInformation.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Threading.Tasks.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Runtime.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Threading.Timer.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Resources.ResourceManager.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Diagnostics.Process.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Collections.NonGeneric.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Xml.ReaderWriter.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Private.Xml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Net.WebClient.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.ComponentModel.EventBasedAsync.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Security.Cryptography.Algorithms.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Security.Cryptography.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\bin\Debug\net6.0\Microsoft.Identity.Client.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Text.Encoding.CodePages.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Buffers.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Linq.Queryable.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Text.RegularExpressions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Book] AS [b]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.Net.Http.Headers.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Http.Features.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Http.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\Microsoft.Win32.Registry.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Html.Abstractions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.Metadata.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Xml.XDocument.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Private.Xml.Linq.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.IO.MemoryMappedFiles.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Net.Http.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Net.Security.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Security.Cryptography.X509Certificates.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5227
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Net.NameResolution.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.26\Microsoft.AspNetCore.WebUtilities.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Net.WebSockets.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (57ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID], [u].[ID], [u].[FirstName], [u].[LastName]
+FROM [Book] AS [b]
+LEFT JOIN [User] AS [u] ON [b].[UserID] = [u].[ID]
+WHERE [b].[ID] = @__id_0
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+WEBCW2.Models.Book.Author.**get** returned null.
+
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PrivateAssemblies\Runtime\Microsoft.VisualStudio.Debugger.Runtime.NetCoreApp.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread '[Thread Destroyed]' (0x1fc4) has exited with code 0 (0x0).
+The thread '[Thread Destroyed]' (0x239c) has exited with code 0 (0x0).
+The thread 0x29c8 has exited with code 0 (0x0).
+The thread 0x578 has exited with code 0 (0x0).
+The thread 0x1440 has exited with code 0 (0x0).
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Diagnostics.StackTrace.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WEBCW2.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.26\System.Reflection.Metadata.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: Error: An unhandled exception has occurred while executing the request.
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WEBCW2.Pages.Books.CreateModel.OnPostAsync() in C:\Users\Jake\Source\Repos\WEBCW2version2\WEBCW2\Pages\Books\Create.cshtml.cs:line 43
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Book] AS [b]
+LEFT JOIN [Author] AS [a] ON [b].[AuthorID] = [a].[ID]
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+LEFT JOIN [Author] AS [a] ON [b].[AuthorID] = [a].[ID]
+ORDER BY [a].[FirstName]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Book] AS [b]
+LEFT JOIN [Author] AS [a] ON [b].[AuthorID] = [a].[ID]
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+LEFT JOIN [Author] AS [a] ON [b].[AuthorID] = [a].[ID]
+ORDER BY [a].[FirstName]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (5ms) [Parameters=[@__searchString_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Book] AS [b]
+LEFT JOIN [Author] AS [a] ON [b].[AuthorID] = [a].[ID]
+WHERE (((((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, [b].[BookTitle]) > 0)) OR ((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, [a].[FirstName]) > 0))) OR ((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, [a].[LastName]) > 0))) OR ((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, [b].[Genre]) > 0))) OR ((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, CONVERT(varchar(11), [b].[ID])) > 0))
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (5ms) [Parameters=[@__searchString_0='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+LEFT JOIN [Author] AS [a] ON [b].[AuthorID] = [a].[ID]
+WHERE (((((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, [b].[BookTitle]) > 0)) OR ((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, [a].[FirstName]) > 0))) OR ((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, [a].[LastName]) > 0))) OR ((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, [b].[Genre]) > 0))) OR ((@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, CONVERT(varchar(11), [b].[ID])) > 0))
+ORDER BY [a].[FirstName]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[ID], [u].[FirstName], [u].[LastName]
+FROM [User] AS [u]
+The thread 0x39ec has exited with code 0 (0x0).
+The thread 0x2888 has exited with code 0 (0x0).
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[FirstName], [u].[LastName]
+FROM [User] AS [u]
+WHERE [u].[ID] = @__id_0
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[StatID], [s].[BookID], [s].[EndDate], [s].[StartDate], [s].[UserID]
+FROM [Stats] AS [s]
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+The thread 0x37e8 has exited with code 0 (0x0).
+The thread 0x78 has exited with code 0 (0x0).
+The thread 0x4584 has exited with code 0 (0x0).
+The thread 0x2e38 has exited with code 0 (0x0).
+The thread 0x2b9c has exited with code 0 (0x0).
+The thread 0x153c has exited with code 0 (0x0).
+The thread 0x4034 has exited with code 0 (0x0).
+The thread 0x47b0 has exited with code 0 (0x0).
+The thread 0x353c has exited with code 0 (0x0).
+The thread 0x1010 has exited with code 0 (0x0).
+The thread 0x2844 has exited with code 0 (0x0).
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[ID], [u].[FirstName], [u].[LastName]
+FROM [User] AS [u]
+The thread 0x3cc8 has exited with code 0 (0x0).
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[ID], [u].[FirstName], [u].[LastName]
+FROM [User] AS [u]
+Microsoft.EntityFrameworkCore.Infrastructure: Information: Entity Framework Core 6.0.26 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.26' with options: None
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[FirstName], [u].[LastName]
+FROM [User] AS [u]
+WHERE [u].[ID] = @__id_0
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[StatID], [s].[BookID], [s].[EndDate], [s].[StartDate], [s].[UserID]
+FROM [Stats] AS [s]
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+Microsoft.EntityFrameworkCore.Database.Command: Information: Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID], [b].[AuthorID], [b].[Blurb], [b].[BookTitle], [b].[Genre], [b].[Image], [b].[UserID]
+FROM [Book] AS [b]
+The thread 0x1354 has exited with code 0 (0x0).
+The thread 0x46c0 has exited with code 0 (0x0).
+The thread 0x3bd0 has exited with code 0 (0x0).
+The thread 0x3bc4 has exited with code 0 (0x0).
+The thread 0x3038 has exited with code 0 (0x0).
+The thread 0x3f24 has exited with code 0 (0x0).
+The thread 0x2fc4 has exited with code 0 (0x0).
+The thread 0x2f6c has exited with code 0 (0x0).
+The thread 0x4404 has exited with code 0 (0x0).
+The thread 0x28bc has exited with code 0 (0x0).
+The thread 0x17b0 has exited with code 0 (0x0).
+The thread 0x4550 has exited with code 0 (0x0).
+The thread 0x180c has exited with code 0 (0x0).
+The thread 0x2e2c has exited with code 0 (0x0).
+The program '[14356] WEBCW2.exe' has exited with code 4294967295 (0xffffffff).
