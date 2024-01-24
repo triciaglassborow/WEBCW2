@@ -64,10 +64,53 @@ namespace WEBCW2.Pages.Books
                 books = books.Where(s => s.BookTitle.Contains(searchString)
                                       || s.Author.FirstName.Contains(searchString)
                                       || s.Author.LastName.Contains(searchString)
+                                      // Author + Book Name
+                                      || (s.BookTitle + " " + s.Author.LastName + " " + s.Author.FirstName).Contains(searchString)
+                                      || (s.BookTitle + " " + s.Author.LastName + s.Author.FirstName).Contains(searchString)
+                                      || (s.BookTitle + " " + s.Author.FirstName + " " + s.Author.LastName).Contains(searchString)
+                                      || (s.BookTitle + " " + s.Author.FirstName + s.Author.LastName).Contains(searchString)
+
+                                      || (s.BookTitle + s.Author.LastName + " " + s.Author.FirstName).Contains(searchString)
+                                      || (s.BookTitle + s.Author.LastName + s.Author.FirstName).Contains(searchString)
+                                      || (s.BookTitle + s.Author.FirstName + " " + s.Author.LastName).Contains(searchString)
+                                      || (s.BookTitle + s.Author.FirstName + s.Author.LastName).Contains(searchString)
+
+                                      || (s.Author.LastName + " " + s.Author.FirstName + " " + s.BookTitle).Contains(searchString)
+                                      || (s.Author.LastName + s.Author.FirstName + " " + s.BookTitle).Contains(searchString)
+                                      || (s.Author.FirstName + " " + s.Author.LastName + " " + s.BookTitle).Contains(searchString)
+                                      || (s.Author.FirstName + s.Author.LastName + " " + s.BookTitle).Contains(searchString)
+
+                                      || (s.Author.LastName + " " + s.Author.FirstName + s.BookTitle).Contains(searchString)
+                                      || (s.Author.LastName + s.Author.FirstName + s.BookTitle).Contains(searchString)
+                                      || (s.Author.FirstName + " " + s.Author.LastName + s.BookTitle).Contains(searchString)
+                                      || (s.Author.FirstName + s.Author.LastName + s.BookTitle).Contains(searchString)
+                                      //
+                                      // Author + Genre
+                                      || (s.Genre + " " + s.Author.LastName + " " + s.Author.FirstName).Contains(searchString)
+                                      || (s.Genre + " " + s.Author.LastName + s.Author.FirstName).Contains(searchString)
+                                      || (s.Genre + " " + s.Author.FirstName + " " + s.Author.LastName).Contains(searchString)
+                                      || (s.Genre + " " + s.Author.FirstName + s.Author.LastName).Contains(searchString)
+
+                                      || (s.Genre + s.Author.LastName + " " + s.Author.FirstName).Contains(searchString)
+                                      || (s.Genre + s.Author.LastName + s.Author.FirstName).Contains(searchString)
+                                      || (s.Genre + s.Author.FirstName + " " + s.Author.LastName).Contains(searchString)
+                                      || (s.Genre + s.Author.FirstName + s.Author.LastName).Contains(searchString)
+
+                                      || (s.Author.LastName + " " + s.Author.FirstName + " " + s.Genre).Contains(searchString)
+                                      || (s.Author.LastName + s.Author.FirstName + " " + s.Genre).Contains(searchString)
+                                      || (s.Author.FirstName + " " + s.Author.LastName + " " + s.Genre).Contains(searchString)
+                                      || (s.Author.FirstName + s.Author.LastName + " " + s.Genre).Contains(searchString)
+
+                                      || (s.Author.LastName + " " + s.Author.FirstName + s.Genre).Contains(searchString)
+                                      || (s.Author.LastName + s.Author.FirstName + s.Genre).Contains(searchString)
+                                      || (s.Author.FirstName + " " + s.Author.LastName + s.Genre).Contains(searchString)
+                                      || (s.Author.FirstName + s.Author.LastName + s.Genre).Contains(searchString)
+                                      //
                                       || (s.Author.LastName + " " +s.Author.FirstName).Contains(searchString)
                                       || (s.Author.LastName + s.Author.FirstName).Contains(searchString)
                                       || (s.Author.FirstName + " " + s.Author.LastName).Contains(searchString)
                                       || (s.Author.FirstName + s.Author.LastName).Contains(searchString)
+
                                       || s.Genre.Contains(searchString)
 									  || s.ID.ToString().Contains(searchString));
 			}
