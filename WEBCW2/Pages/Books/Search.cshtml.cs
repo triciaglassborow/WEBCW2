@@ -24,6 +24,7 @@ namespace WEBCW2.Pages.Books
         public string CurrentSort { get; set; }
 
         public PaginatedList<Book> Books { get; set; }
+        public IList<Author> Author { get; set; } = default!;
         public SearchModel(LibraryContext context, ILogger<SearchModel> logger, IConfiguration _Configuration)
         {
             _context = context;
@@ -40,6 +41,10 @@ namespace WEBCW2.Pages.Books
             NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             DateSort = sortOrder == "Date" ? "date_desc" : "Date";
 
+            if (_context.Authors != null)
+            {
+                Author = await _context.Authors.ToListAsync();
+            }
             if (searchString != null)
             {
                 pageIndex = 1;
