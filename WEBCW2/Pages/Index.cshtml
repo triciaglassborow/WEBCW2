@@ -11,7 +11,7 @@
                 <!--Displayes each book in it's own card-->
                 @foreach (var item in Model.Book)
                 {
-                    @if (Model.count < 30)
+                    @if (Model.count < 12)
                     {
                         <div class="col mb-4">
                             <a asp-page="/Books/Details" asp-route-id="@item.ID">
