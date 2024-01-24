@@ -17,16 +17,16 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             
             <div class="form-group">
-                <label asp-for="Stat.BookID" class="control-label"></label>
+                <label asp-for="Stat.BookID" class="control-label">Book ID:</label>
                 <select asp-for="Stat.BookID" class ="form-control" asp-items="ViewBag.BookID"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Stat.StartDate" class="control-label"></label>
+                <label asp-for="Stat.StartDate" class="control-label">Start Date:</label>
                 <input asp-for="Stat.StartDate" class="form-control" />
                 <span asp-validation-for="Stat.StartDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Stat.EndDate" class="control-label"></label>
+                <label asp-for="Stat.EndDate" class="control-label">End Date:</label>
                 <input asp-for="Stat.EndDate" class="form-control" />
                 <span asp-validation-for="Stat.EndDate" class="text-danger"></span>
             </div>

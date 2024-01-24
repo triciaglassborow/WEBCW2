@@ -12,25 +12,25 @@
 	<hr />
 	<dl class="row">
 		<dt class="col-sm-2">
-			@Html.DisplayNameFor(model => model.User.ID)
+			User ID:
 		</dt>
 		<dd class="col-sm-10">
 			@Html.DisplayFor(model => model.User.ID)
 		</dd>
 		<dt class="col-sm-2">
-			@Html.DisplayNameFor(model => model.User.LastName)
+			Last Name:
 		</dt>
 		<dd class="col-sm-10">
 			@Html.DisplayFor(model => model.User.LastName)
 		</dd>
 		<dt class="col-sm-2">
-			@Html.DisplayNameFor(model => model.User.FirstName)
+			First Name:
 		</dt>
 		<dd class="col-sm-10">
 			@Html.DisplayFor(model => model.User.FirstName)
 		</dd>
 		<dt class="col-sm-2">
-			<p>Longest time spent reading</p>
+			<p>Longest Time Spent Reading:</p>
 		</dt>
 		<dd class="col-sm-10">
 			@if (Model.LongestTime != null)
@@ -39,7 +39,7 @@
 			}
 		</dd>
 		<dt class="col-sm-2">
-			<p>Total time spent reading</p>
+			<p>Total Time Spent Reading:</p>
 		</dt>
 		<dd class="col-sm-10">
 			@if (Model.LongestTime != null)
@@ -48,7 +48,7 @@
 			}
 		</dd>
 		<dt class="col-sm-2">
-			<p>Average time spent reading</p>
+			<p>Average Time Spent Reading:</p>
 		</dt>
 		<dd class="col-sm-10">
 			@if (Model.LongestTime != null)
@@ -59,39 +59,39 @@
 		<p></p>
 
 		<dt class="col-sm-2">
-			<p>Comedy Books read</p>
+			<p>Comedy Books Read:</p>
 		</dt>
 		<dd class="col-sm-10">@Html.DisplayFor(model => model.ComedyCount)</dd>
 		<dt class="col-sm-2">
-			<p>Tragedy Books read</p>
+			<p>Tragedy Books Read:</p>
 		</dt>
 		<dd class="col-sm-10">@Html.DisplayFor(model => model.TragedyCount)</dd>
 		<dt class="col-sm-2">
-			<p>Adventure Books read</p>
+			<p>Adventure Books Read:</p>
 		</dt>
 		<dd class="col-sm-10">@Html.DisplayFor(model => model.AdventureCount)</dd>
 		<dt class="col-sm-2">
-			<p>Horror Books read</p>
+			<p>Horror Books Read:</p>
 		</dt>
 		<dd class="col-sm-10">@Html.DisplayFor(model => model.HorrorCount)</dd>
 		<dt class="col-sm-2">
-			<p>Fantasy Books read</p>
+			<p>Fantasy Books Read:</p>
 		</dt>
 		<dd class="col-sm-10">@Html.DisplayFor(model => model.FantasyCount)</dd>
 		<dt class="col-sm-2">
-			<p>SciFi Books read</p>
+			<p>SciFi Books Read</p>
 		</dt>
 		<dd class="col-sm-10">@Html.DisplayFor(model => model.SciFiCount)</dd>
 		<dt class="col-sm-2">
-			<p>Mystery Books read</p>
+			<p>Mystery Books Read:</p>
 		</dt>
 		<dd class="col-sm-10">@Html.DisplayFor(model => model.MysteryCount)</dd>
 		<dt class="col-sm-2">
-			<p>Thriller Books read</p>
+			<p>Thriller Books Read:</p>
 		</dt>
 		<dd class="col-sm-10">@Html.DisplayFor(model => model.ThrillerCount)</dd>
 		<dt class="col-sm-2">
-			<p>Romance Books read</p>
+			<p>Romance Books Read:</p>
 		</dt>
 		<dd class="col-sm-10">@Html.DisplayFor(model => model.RomanceCount)</dd>
 
@@ -101,27 +101,27 @@
 	{
 		<table class="table">
 			<tr>
-				<td>
-					@Html.DisplayNameFor(modelItem => Model.Stats[0].BookID)
-				</td>
-				<td>
-					@Html.DisplayNameFor(modelItem => Model.Stats[0].Book.BookTitle)
-				</td>
-				<td>
-					@Html.DisplayNameFor(modelItem => Model.Stats[0].Book.Author.ID)
-				</td>
-				<td>
-					@Html.DisplayNameFor(modelItem => Model.Stats[0].Book.Author.FirstName)
-				</td>
-				<td>
-					@Html.DisplayNameFor(modelItem => Model.Stats[0].Book.Author.LastName)
-				</td>
-				<td>
-					@Html.DisplayNameFor(modelItem => Model.Stats[0].StartDate)
-				</td>
-				<td>
-					@Html.DisplayNameFor(modelItem => Model.Stats[0].EndDate)
-				</td>
+				<th>
+					Book ID
+				</th>
+				<th>
+					Book Title
+				</th>
+				<th>
+					Author ID
+				</th>
+				<th>
+					Author's First Name
+				</th>
+				<th>
+					Author's Last Name
+				</th>
+				<th>
+					Start Date
+				</th>
+				<th>
+					End Date
+				</th>
 			</tr>
 			@foreach (var item in Model.Stats)
 			{
@@ -162,6 +162,6 @@
 </div>
 <div>
 	<a asp-page="./Edit" asp-route-id="@Model.User?.ID">Edit</a> |
-	<a asp-page="../Stats/Edit" asp-route-id="@Model.User?.ID">Add book</a> |
+	<a asp-page="../Stats/Create" asp-route-id="@Model.User?.ID">Add book</a> |
 	<a asp-page="./Index">Back to List</a>
 </div>
