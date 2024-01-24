@@ -64,6 +64,10 @@ namespace WEBCW2.Pages.Books
                 books = books.Where(s => s.BookTitle.Contains(searchString)
                                       || s.Author.FirstName.Contains(searchString)
                                       || s.Author.LastName.Contains(searchString)
+                                      || (s.Author.LastName + " " +s.Author.FirstName).Contains(searchString)
+                                      || (s.Author.LastName + s.Author.FirstName).Contains(searchString)
+                                      || (s.Author.FirstName + " " + s.Author.LastName).Contains(searchString)
+                                      || (s.Author.FirstName + s.Author.LastName).Contains(searchString)
                                       || s.Genre.Contains(searchString)
 									  || s.ID.ToString().Contains(searchString));
 			}
